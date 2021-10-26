@@ -1,10 +1,15 @@
 import React from "react";
+import Navbar from "./Header/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./Header/Header";
 
 const App = () => {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <Router>
+      <Navbar />
+
+      <Header />
+    </Router>
   );
 };
 
