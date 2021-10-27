@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../img/profile-img.png";
+import profileImg from "../../img/profile-img.png";
 
 import "./Header.css";
 
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <div className="right-area">
           <div className="profile-bg"></div>
-          <img src={profileImg} alt="profile" className='profile-img'/>
+          <img src={profileImg} alt="profile" className="profile-img" />
         </div>
       </header>
     </>
