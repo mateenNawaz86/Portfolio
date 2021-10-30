@@ -25,20 +25,22 @@ const About = () => {
             </div>
 
             <div className="social-links">
-              <Link
-                to="https://www.linkedin.com/in/mateen-mirani-2904aa167/"
+              <a
+                href="https://www.linkedin.com/in/mateen-mirani-2904aa167/"
                 target="_blank"
+                rel="noreferrer"
                 className="outer-shadow hover-in-shadow links"
               >
                 <i className="fab fa-linkedin-in" />
-              </Link>
-              <Link
-                to="https://www.linkedin.com/in/mateen-mirani-2904aa167/"
+              </a>
+              <a
+                href="https://github.com/mtMirani25"
                 target="_blank"
+                rel="noreferrer"
                 className="outer-shadow hover-in-shadow links"
               >
                 <i className="fab fa-github" />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="about-info">

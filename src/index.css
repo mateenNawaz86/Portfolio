@@ -22,6 +22,7 @@ html {
   --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
   --text-black-600: #666666;
   --icon-color: #ee82ee;
+  --light-gray: #d3d3d3;
 }
 
 .main-container {
