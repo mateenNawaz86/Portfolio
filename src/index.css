@@ -21,8 +21,8 @@ html {
   --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
   --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
   --text-black-600: #666666;
-  --icon-color: #ee82ee;
   --light-gray: #d3d3d3;
+  --gray: #666666;
 }
 
 .main-container {
@@ -51,7 +51,6 @@ html {
   user-select: none;
   margin: 0;
 }
-
 
 .inner-shadow {
   box-shadow: var(--inner-shadow);
@@ -88,7 +87,7 @@ html {
 .btn-1 {
   padding: 0.7rem 1.5rem;
   text-decoration: none;
-  color: var(--icon-color);
+  color: var(--title-color);
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -110,4 +109,3 @@ html {
     font-size: 1rem;
   }
 }
-

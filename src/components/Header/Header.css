@@ -26,6 +26,7 @@
 
 .name {
   font-size: 3.5rem;
+  color: var(--title-color);
 }
 
 .skills-title {

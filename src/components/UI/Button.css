@@ -1,0 +1,6 @@
+.submit-btn {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: right;
+  padding: 0 1rem;
+}
