@@ -92,3 +92,24 @@
   object-fit: cover;
   position: absolute;
 }
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .left-wrapper {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .personal-des {
+    display: none;
+  }
+}
